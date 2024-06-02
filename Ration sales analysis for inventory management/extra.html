@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Management Dashboard</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+        }
+        .container {
+            text-align: center;
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 1200px;
+        }
+        h1 {
+            font-size: 2em;
+            color: #333333;
+            margin-bottom: 20px;
+        }
+        iframe {
+            width: 100%;
+            height: 600px; /* Adjust height as needed */
+            border: none;
+            border-radius: 10px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 1.5em;
+            }
+            iframe {
+                height: 400px; /* Adjust height for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Inventory Management Dashboard</h1>
+        <iframe title="Rations Analysis for inventor management" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=be1ae563-3e12-4efc-a69b-b29cf9ad3341&autoAuth=true&ctid=34c6a16f-5c98-4f1c-9e10-5b1d293bf1d4" frameborder="0" allowFullScreen="true"></iframe>
+    </div>
+</body>
+</html>
